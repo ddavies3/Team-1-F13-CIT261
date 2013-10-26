@@ -12,8 +12,20 @@ public class Shelves {
 
     /**
      * @param args the command line arguments
+     * 
+     //Variables
+     
+     
+     * 
+     
+     //Static Variables
+     
+     * 
+     * 
      */
+    
     public static void main(String[] args) {
+        
         // TODO code application logic here
     }
 }
