@@ -5,4 +5,7 @@
 * Douglas
 * Bernardo
 
+#Team 1
+* We are the coolest!
+
 
