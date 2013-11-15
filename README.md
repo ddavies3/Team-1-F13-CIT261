@@ -5,7 +5,10 @@
 * Douglas
 * Bernardo
 
-#Team 1
-* We are the coolest!
+#Hosting
+* Bluehost or Justhost (Create a subdomain)
+
+#Database
+* Have we found what we need here?
 
 
