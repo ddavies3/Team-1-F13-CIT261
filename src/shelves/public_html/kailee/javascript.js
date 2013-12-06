@@ -1,3 +1,6 @@
+<script> 
+
+var xhr = new XMLHttpRequest();
 xhr.open('GET', '/data.json');
 
 var items;
@@ -24,4 +27,4 @@ var addItems = function(items){
   }
 };
 
-</html>var xhr = new XMLHttpRequest();
+</script>
