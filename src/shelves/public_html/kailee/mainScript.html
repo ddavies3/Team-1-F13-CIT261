@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script> 
+
+var worker = new Worker('doWork.js');
+
+worker.addEventListener('message', function(e) {
+  console.log('Worker said: ', e.data);
+}, false);
+
+worker.postMessage('Welcome to Shelves, we hope you love this application!');
+</script>
+
+</body>
+</html>
