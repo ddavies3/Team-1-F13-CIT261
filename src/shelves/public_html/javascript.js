@@ -1,5 +1,3 @@
-<script> 
-
 var xhr = new XMLHttpRequest();
 xhr.open('GET', '/data.json');
 
@@ -26,5 +24,3 @@ var addItems = function(items){
     outputEl.appendChild(itemEl);
   }
 };
-
-</script>
