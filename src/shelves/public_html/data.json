@@ -4,5 +4,8 @@
 {"name": "cheese"},
 {"name": "bread"},
 {"name": "fruit"},
-{"name": "vegetables"}
+{"name": "vegetables"}, 
+{"name": "crackers"},
+{"name": "cereal"}, 
+{"name": "drinks"}
 ]
