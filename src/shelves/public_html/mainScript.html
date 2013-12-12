@@ -8,7 +8,7 @@ var worker = new Worker('doWork.js');
 worker.addEventListener('message', function(e) {
   console.log('Worker said: ', e.data);
 }, false);
-worker.postMessage("The total for your transaction is: (5+11)");
+worker.postMessage("The total for your transaction is: " + (5 + 11));
 </script>
 
 </body>
