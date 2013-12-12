@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET', '/data.json');
+xhr.open('GET', 'data.json');
 
 var items;
 xhr.onreadystatechange = function () {
