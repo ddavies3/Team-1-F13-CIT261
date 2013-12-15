@@ -1,7 +1,6 @@
-<script> 
-
+var loadInventory = function() { 
 var xhr = new XMLHttpRequest();
-xhr.open('GET', '/data.json');
+xhr.open('GET', 'data.json');
 
 var items;
 xhr.onreadystatechange = function () {
@@ -25,6 +24,10 @@ var addItems = function(items){
     
     outputEl.appendChild(itemEl);
   }
+}
 };
-
-</script>
+$(document).bind('pageload', function(event, data) {
+if (data.url.endsWith('inventory.html')) {
+loadInventory();
+	}
+});
