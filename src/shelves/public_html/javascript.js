@@ -5,4 +5,6 @@ list.cereal = 20;
 list.chicken = 2;
 console.log(list);
 localStorage.setItem('list',JSON.stringify(list));
-console.log(JSON.parse(LocalStorage.getItem('list')));
+console.output(JSON.parse(LocalStorage.getItem('list')));
+
+
