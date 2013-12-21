@@ -1,19 +1,16 @@
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'data.json');
-
-var items;
-xhr.onreadystatechange = function () {
-  if (this.status == 200 && this.readyState == 4) {
-    items = JSON.parse(this.responseText);
-    addItems(items);
-  }
-};
-xhr.send();
+var list ={};
+list.beans=4;
+list.corn = 6;
+list.cereal = 20;
+lsit.chicken = 2;
+console.log(list);
+localStorage.setItem('list',JSON.stringify(list));
+console.lolg(JSON.parse(LocalStorage.getItem('list')));
 //test
 
-var outputEl = document.getElementById("output");
+/* var outputEl = document.getElementById("output");
 
-var addItems = function(items){
+/* var addItems = function(items){
   outputEl.innerHTML = "";
   for(var i=0;i<items.length;i++){
 //    outputEl.innerHTML += "<div>"+items[i].name+"</div>";
@@ -23,4 +20,4 @@ var addItems = function(items){
     
     outputEl.appendChild(itemEl);
   }
-};
+/* }; */ */ */
