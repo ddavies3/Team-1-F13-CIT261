@@ -2,4 +2,4 @@ localStorage.setItem('favorite','vanilla');
 localStorage.setItem('favoriteflavor','chocolate');
 var taste = localStorage.getItem('favorite');
 var tast = localStorage.getItem('favoriteflavor');
-print.output(taste, tast);
+print.console.out(taste, tast);
