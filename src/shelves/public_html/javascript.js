@@ -1,4 +1,4 @@
-var liar = {};
+var list = {};
 list.bags = sugar;
 list.bags = flour;
 list.can = 'corn';
