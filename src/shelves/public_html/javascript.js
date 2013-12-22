@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<div id="result"></div>
 <script>
 if(typeof(Storage)!=="undefined")
   {
@@ -14,6 +9,3 @@ else
   document.getElementById("result").innerHTML="Sorry, your browser does not support web storage...";
   }
 </script>
-
-</body>
-</html>
