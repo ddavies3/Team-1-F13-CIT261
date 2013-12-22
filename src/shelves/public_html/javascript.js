@@ -4,3 +4,7 @@ list.bag = 'corn';
 list.sack = 'flour';
 localStorage.setItem( 'list', JSON.stringify(list) );
 console.log( JSON.parse( localStorage.getItem( 'list' ) ) );
+
+if(localStorage && localStorage.getItem('list')){
+  render(JSON.parse(localStorage.getItem('list')));
+}
