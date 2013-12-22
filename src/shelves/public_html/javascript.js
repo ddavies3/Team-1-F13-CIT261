@@ -1,8 +1,19 @@
-localStorage.setItem('favorite','vanilla');
-localStorage.setItem('favoriteflavor','chocolate');
-var taste = localStorage.getItem('favorite');
-var tast = localStorage.getItem('favoriteflavor');
-console.log(taste, tast);
+<!DOCTYPE html>
+<html>
+<body>
 
-if(localStorage && localStorage.getItem('taste')){
-render(JSON.parse(localStorage.getItem('taste')));}
+<div id="result"></div>
+<script>
+if(typeof(Storage)!=="undefined")
+  {
+  localStorage.list="beans";
+  document.getElementById("result").innerHTML="Item: " + localStorage.lastname;
+  }
+else
+  {
+  document.getElementById("result").innerHTML="Sorry, your browser does not support web storage...";
+  }
+</script>
+
+</body>
+</html>
